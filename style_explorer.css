@@ -1,0 +1,220 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+
+.logo {
+font: 600 2em Lato;
+letter-spacing: 0.2em;
+text-align: right;
+width: 70%;
+margin: auto;
+}
+
+
+.logo h2 {
+color: rgba(109, 106, 177, 0.9);
+font: 100 0.8em Belleza;
+padding-bottom: 10px;
+margin-bottom: 30px;
+padding-right: 0.5%;	
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+
+.navigation-main, .navigation {
+/*border: 1px solid black;*/
+display: block;
+text-align: left;
+position: absolute;
+top: 76px;
+width: 45%;
+}
+
+.navigation-main li, .navigation li {
+color: black;
+display: inline;
+margin: 6% auto;
+font: 100 1.6em "Roboto Condensed";
+}
+
+.navigation-main li{
+padding: 0 6%;
+}
+
+
+.dishes-menu {
+background-color: slategrey;
+border: 1px solid transparent;
+border-radius: 20px;
+display: block;
+padding: 10px 2%;
+position: relative;
+top: 10px;
+left: 10px;
+width: 280px;
+z-index: 99;
+}
+
+.decoration-menu {
+background-color: slategrey;
+border: 1px solid transparent;
+border-radius: 20px;
+clear: both;
+display: block;
+padding: 10px 2%;
+position: relative;
+left: 27%;
+top: 10px;
+width: 280px;
+z-index: 100;
+}
+
+
+.dishes-menu li, .decoration-menu li {
+display: block;
+font: 200 1.3em "Roboto Condensed";
+line-height: 1.6em;
+list-style-type: none;
+color: white;
+}
+
+
+.dishes-menu a, .decoration-menu a {
+color: white;
+text-decoration: none;
+}
+
+
+/* Exploring items per picture - general window*/
+.peritem-explorer {
+/*background-color: rgba(120, 115, 130, 0.2);
+border-top: 2px solid darkgrey;
+border-bottom: 2px outset silver;*/
+margin: 0 auto;
+display: block;
+text-align: center;
+width: 100%;
+height: 83vh;
+}
+
+/* a place for picture*/
+.image-window {
+display: block;
+position: absolute;
+width: 65%;
+left: 15%;
+height: 83vh;
+}
+
+
+.current-image {
+width: auto;
+height: 83vh;
+margin: auto;
+}
+
+
+#arrows {
+left: -1%;
+width: 102%;
+position: absolute;
+top: 245px;
+z-index: 100;
+}
+
+
+#arrow_left {
+float: left;
+padding: 3% 1%;
+cursor: pointer;
+}
+#arrow_right {
+float: right;
+padding: 3% 1%;
+cursor: pointer;
+}
+
+
+/*text field with title and size           !!!*/
+.description {
+font: 400 1.2em "Roboto Condensed";
+line-height: 2em;
+display: table;
+text-align: left;
+padding-right: 2%;
+margin-top: 0;
+width: 20%;
+float: right;
+height: 100%;
+}
+
+.description span{
+display:table-cell;
+vertical-align:top;
+}
+
+/*list of related items with pics*/
+.explorer-nav {
+float: left;
+width: 11%;
+height: 450px;
+margin: 30px 1% 0 -1%;
+overflow: hidden;
+}
+
+.explorer-nav .miniature {
+padding: 10px 0.5%;
+}
+
+.explorer-nav-glyphs{
+float: left;
+position: relative;
+cursor: pointer;
+}
+
+#arrows_up{
+top: 0;
+left: 5.8%;
+}
+
+#arrows_down{
+top: 480px;
+left: -7.7%;
+}
+
+
+
+.invisible {
+visibility: hidden;
+}
+
+.active {
+background-color: rgba(172, 168, 156, 0.7);
+}
+
+.current {
+text-decoration: underline;
+}
+
+
+.toggleOff, .hidden {
+display: none;
+}
+
+.list-item {
+display: inline-block;
+padding-left: 4%;
+padding-right: 15%;
+}
